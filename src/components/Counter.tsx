@@ -8,6 +8,7 @@ const Counter = () => {
       <h1>Counter</h1>
       <div>Test</div>
       <div>{count}</div>
+      <button onClick={() => setCount(count + 1)}>+</button>
     </div>
   );
 };
